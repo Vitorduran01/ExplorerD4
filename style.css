@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image {
+   display: grid;
+   justify-content: center;
+}
+
+header h2{
+    text-align: center;
+    margin-top: 1rem;
+    color: #B52184;
+    font-family: 'Mulish';
+}
+
+p{
+    text-align: center;
+    font-family: 'Mulish';
+}
+
+.button{
+    display: grid;
+    justify-content: center;
+    padding: 1.25rem;
+    height: 15.625rem;
+    margin-top: 1.875rem;
+}
+
+#principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(134deg, #343193 0%, #302C63 100%);
+    
+}
+
+.card1{
+    margin-left: 39px;
+    margin-right: 39px;
+    width: 300px;
+    height: 337px ;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.card2{
+    margin-left: 39px;
+    margin-right: 39px;
+    width: 300px;
+    height: 337px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.card3{
+    margin-left: 39px;
+    margin-right: 39px;
+    width: 300px;
+    height: 337px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    
+}
+
+.card1 h2{
+    margin-top: 15px;
+    color: #B52184;
+    font-family: 'Mulish';
+    margin-bottom: 5px;
+}
+
+.card1 p{
+    text-align: left;
+    font-family: 'Mulish';
+
+}
+
+.card2 h2{
+    margin-top: 15px;
+    color: #B52184;
+    font-family: 'Mulish';
+    margin-bottom: 5px;
+}
+
+.card2 p{
+    text-align: left;
+    font-family: 'Mulish';
+
+}
+
+.card3 h2{
+    margin-top: 15px;
+    color: #B52184;
+    font-family: 'Mulish';
+    margin-bottom: 5px;
+}
+
+.card3 p{
+    text-align: left;
+    font-family: 'Mulish';
+
+}
+
+.formulario{
+    height: 565px;
+    display: grid;
+    justify-content: center;
+}
+
+.formulario h1{
+    margin-top: 78px;
+    color: #B52184;
+    font-family: 'Mulish';
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 43px;
+}
+
+fieldset{
+    border-style: none;
+}
+
+#name{
+    background: url(./assets/person.svg);
+    background-repeat: no-repeat;
+    background-position: 1.4rem;
+}
+
+#email{
+    background: url(./assets/email.svg);
+    background-repeat: no-repeat;
+    background-position: 1.4rem;
+}
+
+.formulario form input{
+  border: 0.15rem solid black;
+  border-radius: 1.6rem;
+  padding: 12px 16px 12px 14px;
+  color: var(--text-base-color);
+  font-weight: 600;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.formulario textarea{
+  border: 0.15rem solid black;
+  border-radius: 1.6rem;
+  padding: 12px 16px 12px 14px;
+  color: var(--text-base-color);
+  font-weight: 600;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  width: 300px;
+  height: 150px;
+}
+
+.formulario form input {
+    padding-left: 4rem;
+}
+
+.formulario form button{
+  background: linear-gradient(134deg, #343193 0%, #302C63 100%);
+  border-radius: 1.6rem;
+  color: white;
+  height: 45px;
+  align-content: center;
+  border-style: none;
+}
+
+footer{
+    height: 78px;
+    background:linear-gradient(134deg, #343193 0%, #302C63 100%);
+    padding: 15px;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    font-family: 'Mulish';
+}
+
+/* DESKTOP */
+@media (min-width:1440px){
+    header{
+        display: flex;
+        justify-content: space-around;
+        padding: 0 2.9rem 10.3rem 10.9rem;
+        max-height: 83.6rem;  
+    }
+    
+    .text{
+        display: flex;
+        flex-direction: column;
+        order: 1;
+        text-align: center;
+    }
+
+    .text h2{
+        margin-top: 100px;
+    }
+
+    .text p{
+        margin-bottom: 100px;
+    }
+
+    .text a{
+        display: flex;
+
+    }
+    .image{
+        order: 2;
+    }
+
+    #principal{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+    }
+
+    .container{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .formulario{
+    height: 565px;
+    width: 600px;
+    display: grid;
+    justify-content: center;
+
+    }
+    .formulario h1{
+        text-align: left;
+    }
+    .formulario form input{
+        width: 600px;
+    }
+
+    .formulario textarea{
+        width: 600px;
+    }
+}
